@@ -9,9 +9,7 @@ Sitemap: https://job-konect-waitlist.vercel.app/sitemap.xml
 Crawl-delay: 10
 
 # Important pages to crawl
-Allow: /waitlist
-Allow: /about
-Allow: /contact
+Allow: /
 
 # Disallow specific paths
 Disallow: /api/
