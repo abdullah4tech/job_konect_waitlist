@@ -44,7 +44,9 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      gaId: process.env.NUXT_PUBLIC_GA_ID || ''
+      gaId: process.env.NUXT_PUBLIC_GA_ID || '',
+      supabaseUrl: process.env.NUXT_PUBLIC_SUPABASE_URL || '',
+      supabaseKey: process.env.NUXT_PUBLIC_SUPABASE_KEY || ''
     }
   }
 })

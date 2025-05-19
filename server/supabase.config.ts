@@ -1,8 +1,8 @@
 import { createClient } from '@supabase/supabase-js'
 
 // Get environment variables from Nuxt config
-const supabaseUrl = process.env.SUPABASE_URL;
-const supabaseKey = process.env.SUPABASE_KEY;
+const supabaseUrl = useRuntimeConfig().public.supabaseUrl;
+const supabaseKey = useRuntimeConfig().public.supabaseKey;
 
 if (!supabaseUrl || !supabaseKey) {
   throw createError({
