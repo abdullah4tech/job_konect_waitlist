@@ -3,7 +3,7 @@ Allow: /
 Disallow: 
 
 # Sitemap
-Sitemap: https://job-konect.com/sitemap.xml
+Sitemap: https://job-konect-waitlist.vercel.app/sitemap.xml
 
 # Crawl-delay in seconds
 Crawl-delay: 10

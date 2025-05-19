@@ -16,20 +16,20 @@ useHead({
     { name: 'keywords', content: 'job waitlist, hiring platform preview, career opportunities, job matching technology, early access program' },
     { property: 'og:title', content: 'Join Job-Konect Waitlist - Get Early Access' },
     { property: 'og:description', content: 'Join the waitlist for Job-Konect, the intelligent hiring platform that matches top talent with top employers. Get early access to our innovative job matching technology.' },
-    { property: 'og:image', content: '/business_abstract_illuestration.png' },
+    { property: 'og:image', content: '/open-graph.png' },
     { name: 'twitter:title', content: 'Join Job-Konect Waitlist - Get Early Access' },
     { name: 'twitter:description', content: 'Join the waitlist for Job-Konect, the intelligent hiring platform that matches top talent with top employers. Get early access to our innovative job matching technology.' },
-    { name: 'twitter:image', content: '/business_abstract_illuestration.png' }
+    { name: 'twitter:image', content: '/open-graph.png' }
   ],
   script: [
     {
       type: 'application/ld+json',
-      children: JSON.stringify({
+      innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Waitlist',
         name: 'Job-Konect Early Access Program',
         description: 'Join the waitlist for Job-Konect, the intelligent hiring platform that matches top talent with top employers.',
-        url: 'https://job-konect.com',
+        url: 'https://job-konect-waitlist.vercel.app',
         startDate: '2025-05-29',
         endDate: '2025-06-29',
         availability: 'https://schema.org/InStock'
