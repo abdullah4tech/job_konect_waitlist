@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import useHead from '@vueuse/head'
+import { useHead } from '@vueuse/head'
 
 const email = ref('')
 const isSubmitting = ref(false)
