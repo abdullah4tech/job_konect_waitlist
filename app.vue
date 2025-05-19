@@ -1,10 +1,8 @@
 <template>
   <div>
     <NuxtRouteAnnouncer />
-    <WaitlistForm />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
-
-<script setup>
-import WaitlistForm from '~/components/WaitlistForm.vue'
-</script>

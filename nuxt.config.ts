@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   modules: ['@nuxt/eslint', '@nuxt/fonts'],
+  plugins: [
+    '~/plugins/analytics.client.ts'
+  ],
   vite: {
     plugins: [
       tailwindcss(),
