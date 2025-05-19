@@ -8,7 +8,17 @@ export default defineNuxtConfig({
   vite: {
     plugins: [
       tailwindcss(),
-    ]
+    ],
+    build: {
+      rollupOptions: {
+        external: ['@supabase/supabase-js'],
+        output: {
+          globals: {
+            '@supabase/supabase-js': 'supabase'
+          }
+        }
+      }
+    }
   },
   css: ['~/assets/css/main.css'],
   app: {
