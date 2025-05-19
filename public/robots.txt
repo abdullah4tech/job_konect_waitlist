@@ -13,7 +13,6 @@ Crawl-delay: 10
 Allow: /
 
 # Disallow specific paths
-Disallow: /api/
 Disallow: /admin/
 Disallow: /private/
 
