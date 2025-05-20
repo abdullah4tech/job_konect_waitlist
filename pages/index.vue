@@ -140,7 +140,10 @@ const handleSubmit = async (e: Event) => {
             🎉 You’re on the list! We’ll keep you posted.
           </div>
           <div v-if="isError" class="mt-4 px-4 py-3 bg-red-100 text-red-700 text-sm rounded-lg">
-            ⚠️ {{ errorMessage }}
+            <div class="flex items-center">
+              <span class="mr-2">⚠️</span>
+              <span>{{ errorMessage }}</span>
+            </div>
           </div>
 
           <!-- Footer -->
